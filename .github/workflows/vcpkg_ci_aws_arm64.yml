@@ -68,6 +68,7 @@ jobs:
           - { name: 'ubuntu-20.04', arch: 'arm64', triplet: 'arm64-linux-rel', arch_docker: '_arm64' }
         image:
           - { name: 'ubuntu', tag: '20.04' }
+          - { name: 'ubuntu', tag: '22.04' }
         llvm: [ 'llvm-13', 'llvm-14' ]
 
     container:
